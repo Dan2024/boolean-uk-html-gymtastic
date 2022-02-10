@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: lato;
+}
+
+strong {
+  font-family: staatliches;
+}
+
+li {
+  display: inline;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1.75rem;
+}
+
+span {
+  color: #327ca8;
+}
+
+.nav {
+  height: 100px;
+  background-color: #327ca8;
+  color: white;
+  font-size: 2rem;
+  display: grid;
+  place-items: center left;
+  word-spacing: 50px;
+  padding: 15px;
+}
+
+.main {
+  padding: 30px;
+}
+
+.main__title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #327ca8;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 15px;
+  box-shadow: 6px 7px 12px rgb(48, 40, 40);
+}
+
+.main__btn {
+  width: 20%;
+  border-radius: 20px;
+  background-color: white;
+  border: solid 3px #e98330;
+  box-shadow: none;
+
+  color: #e98330;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+/* 
+.social__links li:first-child {
+  border: solid 3px #884af4;
+  color: #884af4;
+} */
+
+.ig {
+  border: solid 3px #884af4;
+  color: white;
+  background-color: #884af4;
+}
+
+.fb {
+  border: solid 3px #3279eb;
+  color: white;
+  background-color: #3279eb;
+}
+
+.yt {
+  border: solid 3px #eb2e1e;
+  color: white;
+  background-color: #eb2e1e;
+}
+
+.social {
+  padding: 30px;
+}
+
+.social__title {
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+  color: #327ca8;
+}
+
+.social li {
+  padding-right: 20px;
+}
+
+footer {
+  height: 400px;
+  background-color: #327ca8;
+  padding: 30px;
+}
+
+.footer__title {
+  color: white;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+  font-weight: 300;
+}
+
+footer ul {
+  color: white;
+  font-size: 1.1rem;
+}
+
+footer ul li {
+  display: block;
+}
+
+.locations__list {
+  font-weight: 300;
+  padding-left: 20px;
+}
